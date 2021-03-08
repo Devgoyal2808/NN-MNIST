@@ -5,9 +5,13 @@ Neural Network helps to move from linear function to non linear function as outp
 We basically combine different linear models in layers to make a resultant model b/w input and predictions non linear.
 we than apply Gradient Descent on this model to find best possible solution with minimized cost and error.
 
-Considered Cost: Error + (lamba)*(regularization)
+Considered Cost: Error + (lamba)*(regularization)                                                                                                                                  
+
 Error: (sigma(Y_actual - Y_pred)^2)/2
+
 Function used: sigmoid(z)= 1 / (1+e^-z)
+
+
 End result minimized by calculating and forming equations based on : dell(Error)/dell(weight(i)(j))  and  dell(Error)/dell(biasing_factor(i)(j))
 
 ### BackPropogation
