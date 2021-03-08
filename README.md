@@ -10,8 +10,8 @@ Error: (sigma(Y_actual - Y_pred)^2)/2
 Function used: sigmoid(z)= 1 / (1+e^-z)
 End result minimized by calculating and forming equations based on : dell(Error)/dell(weight(i)(j))  and  dell(Error)/dell(biasing_factor(i)(j))
 
-# BackPropogation
+### BackPropogation
 after applying calculus on stated above for every layer we can drive that  dell(Error)/dell(weight(i)(j)) depends on weights(i,j), inputs(j), output(j) , output(i) etc and we end up reaching a recursive function from nth layer to n-1 layer. Hence this entire function is called back propogation. 
 
-# FrontPropogation
+### FrontPropogation
 In this we calculate all the values at every layer using new weights and biasing factor from from nth to n+1 layer so called FrontPropogation. We use this data in back Propogation for next step.
