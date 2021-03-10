@@ -21,12 +21,12 @@ after applying calculus on stated above for every layer we can drive that  dell(
 In this we calculate all the values at every layer using new weights and biasing factor from from nth to n+1 layer so called FrontPropogation. We use this data in back Propogation for next step.
 
 
-# NN MNIST
+# NN TensorFlow MNIST
 MNIST is data set which contains 70k images of numbers in range [0,9]. 55k in train,10k in test,5k in validation.
 
 After knowing how NN is implemented , we use Tensorflow to build Stochastic Non Linear Regression model with 2 hiden layer of 256,256 nodes.Input with 784 nodes and output with 10 nodes.Hence having 256,256,10 biasing factors.
 
-TensorFlow is a free and open-source software, symbolic math library for machine learning. It can be used across a range of tasks but has a particular focus on training and inference of deep neural networks based on dataflow and differentiable programming
+TensorFlow is a free and open-source software, symbolic math library for machine learning. It can be used across a range of tasks but has a particular focus on training and inference of deep neural networks based on dataflow and differentiable programming.
 
 Considered Error :: Cross Entropy: sigma(-y*log(h)-(1-y)log(1-h)).             where h is derivative of net error w.r.t respective node.
 
@@ -35,3 +35,7 @@ Optimizer : AdamOptimizer used with learning rate 0.01 . It basically perform ba
 Front Propagation: We need to write our own function every time as per the model we use.
 
 Stochastic:Dividing into 100 Batches increased our accuracy from 86% to 98% in particular case.
+
+## NN Keras MNIST
+Keras is a deep learning API written in Python, running on top of the machine learning platform TensorFlow.
+We than implement the above using keras which have all the fucntions and paramaters and make our work easy.All we need is understanding of implementation on NN and tensorflow to improve model and get better result. 
