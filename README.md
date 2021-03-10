@@ -34,4 +34,4 @@ Optimizer : AdamOptimizer used with learning rate 0.01 . It basically perform ba
 
 Front Propagation: We need to write our own function every time as per the model we use.
 
-Stochastic:Dividing into 100 Batches increased our accuracy from 86% to 98% in particular cases.
+Stochastic:Dividing into 100 Batches increased our accuracy from 86% to 98% in particular case.
